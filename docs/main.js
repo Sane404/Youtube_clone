@@ -994,7 +994,7 @@ class SearchBarComponent {
     }
 }
 SearchBarComponent.ɵfac = function SearchBarComponent_Factory(t) { return new (t || SearchBarComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"])); };
-SearchBarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SearchBarComponent, selectors: [["app-search-bar"]], decls: 4, vars: 0, consts: [[1, "search-bar"], ["type", "search", "name", "search", "id", "search", 3, "keydown"], ["q", ""], ["src", "../../../assets/search-bar.svg", "alt", "search", 3, "click"]], template: function SearchBarComponent_Template(rf, ctx) { if (rf & 1) {
+SearchBarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SearchBarComponent, selectors: [["app-search-bar"]], decls: 4, vars: 0, consts: [[1, "search-bar"], ["type", "search", "name", "search", "id", "search", 3, "keydown"], ["q", ""], ["src", "assets/search-bar.svg", "alt", "search", 3, "click"]], template: function SearchBarComponent_Template(rf, ctx) { if (rf & 1) {
         const _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "input", 1, 2);
