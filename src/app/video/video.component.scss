@@ -1,0 +1,30 @@
+.singleVideo {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  max-width: 1280px;
+}
+.wrap {
+  padding: 10px;
+  display: flex;
+  // justify-content: space-between;
+}
+.title_and_stats {
+  padding: 10px;
+  display: flex;
+  font-size: 1.25em;
+}
+.title {
+  margin-right: auto;
+}
+.like {
+  color: green;
+}
+.dislike {
+  margin-left: 10px;
+  color: red;
+}
+.views {
+  padding: 10px;
+  padding-top: 0;
+}

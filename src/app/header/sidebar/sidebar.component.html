@@ -1,0 +1,7 @@
+<ul>
+  <p style="margin-bottom: 10px;">Interesting channels</p>
+  <li *ngFor="let item of IC_DATA" (click)="goTo(item.id)">
+    <img [src]='item?.snippet.thumbnails.default.url'>
+    <p>{{item.snippet.title}}</p>
+  </li>
+</ul>

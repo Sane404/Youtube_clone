@@ -1,0 +1,29 @@
+.test {
+  color: gray;
+  display: flex;
+  margin-bottom: 5px;
+}
+.v-wrap {
+  max-width: 226px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+  p {
+    margin: 0;
+  }
+  b {
+    margin-left: 3px;
+  }
+}
+.related {
+  color: white;
+  margin-left: 10px;
+}
+.title {
+  color: white;
+}
+img,
+.c-link {
+  cursor: pointer;
+}

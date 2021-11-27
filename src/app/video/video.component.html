@@ -1,0 +1,20 @@
+<div class="wrap">
+  <div class="singleVideo">
+    <iframe width="1280" height="720" [src]='trustedUrl' *ngIf='trustedUrl'  frameborder="0"></iframe>
+    <div class="title_and_stats">
+      <div class="title">{{videoData.title}}</div>
+      <div class="like">{{videoData.likeCount}}</div>
+      <div class="dislike">{{videoData.dislikeCount}}</div>
+    </div>
+
+    <!-- <div class="title">{{videoData.description}}</div> -->
+    <div class="views">{{videoData.viewCount}} views</div>
+
+
+  </div>
+  <div class="related">
+    <app-related></app-related>
+  </div>
+</div>
+
+

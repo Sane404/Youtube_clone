@@ -1,0 +1,21 @@
+.query-results {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.video {
+  padding: 5px;
+  color: white;
+  p {
+    word-break: break-word;
+    margin-bottom: 3px;
+  }
+  b {
+    margin-left: 3px;
+  }
+  width: 320px;
+}
+img,
+.c-link {
+  cursor: pointer;
+}

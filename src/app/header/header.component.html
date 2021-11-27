@@ -1,0 +1,11 @@
+<mat-toolbar>
+  <button mat-icon-button (click)="showSidebar()">
+    <mat-icon  >menu</mat-icon >
+  </button>
+  <div class="logo" [routerLink]="['/']">Me<b>Tube</b></div>
+  <app-search-bar></app-search-bar>
+</mat-toolbar>
+<div class="sidebar-wrap" [class.visible]="sidebarVisible">
+  <app-sidebar></app-sidebar>
+
+</div>

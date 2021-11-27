@@ -1,0 +1,15 @@
+<div class="title">
+  {{channelName}} 's 12 latest videos
+</div>
+<div class="channel">
+  <div *ngFor="let v of videos" class="video" >
+    <img [src]='v.snippet.thumbnails.medium.url' (click)='goToVideo(v.snippet.resourceId.videoId)'>
+    <p style="font-size: 1.25em; color: white;">{{v.snippet.title}}</p>
+    <p style="color: rgb(200, 200, 200); " (click)='goToChannel(v.snippet.channelId)' class="c-link"><i>by</i><b>{{v.snippet.channelTitle}}</b></p>
+
+    <span style="color: rgb(200, 200, 200);">{{v.viewCount}} views</span>
+  </div>
+  <div class="quota" *ngIf="overQuota">
+    You exceeded your daily YouTube API qouta try again tommorow.
+  </div>
+</div>

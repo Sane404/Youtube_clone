@@ -1,0 +1,16 @@
+<div class="related">
+  <h2>Related videos</h2>
+  <div *ngFor="let v of videos" class="video" >
+    <div class="test" *ngIf="v.snippet">
+      <img [src]='v.snippet?.thumbnails.default.url' (click)='goToVideo(v.id.videoId)'>
+      <div class="v-wrap">
+        <p class="title">{{v.snippet?.title}}</p>
+        <p (click)='goToChannel(v.snippet.channelId)' class="c-link">
+          <i>by </i><b>{{v.snippet?.channelTitle}}</b>
+        </p>
+        <span>{{v.viewCount}} views</span>
+      </div>
+    </div>
+
+  </div>
+</div>

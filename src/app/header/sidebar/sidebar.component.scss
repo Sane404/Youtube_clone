@@ -1,0 +1,24 @@
+ul {
+  margin-top: 0;
+  padding: 10px;
+  list-style-type: none;
+  color: white;
+  p {
+    // text-transform: uppercase;
+    font-size: 1.05rem;
+    margin: 0;
+    margin-left: 5px;
+  }
+  li {
+    // width: 100px;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+}
+img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
